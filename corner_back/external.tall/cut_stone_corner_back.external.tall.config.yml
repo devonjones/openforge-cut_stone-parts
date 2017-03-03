@@ -1,0 +1,21 @@
+columns:
+  - ../../wall_columns/external.tall/cut_stone_wall_columns
+  - external.tall
+  - stl
+columns_90:
+  - ../../wall_columns/90degrees.external.tall/cut_stone_wall_columns
+  - 90degrees.external.tall
+  - stl
+columns_corner:
+  - ../../corner_columns/external.tall/cut_stone_corner_column
+  - external.tall.stl
+back_length:
+  1: 1
+  2: 3
+  3: 6
+  4: 8
+result:
+  - cut_stone_corner_back
+  - external.tall.stl
+external: true
+inverse: false

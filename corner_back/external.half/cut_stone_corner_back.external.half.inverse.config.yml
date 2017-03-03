@@ -1,0 +1,21 @@
+columns:
+  - ../../wall_columns/external.half/cut_stone_wall_columns
+  - external.half
+  - stl
+columns_90:
+  - ../../wall_columns/90degrees.external.half/cut_stone_wall_columns
+  - 90degrees.external.half
+  - stl
+columns_corner:
+  - ../../corner_columns/external.half/cut_stone_corner_column
+  - external.half.inverse.stl
+back_length:
+  1: 0
+  2: 2
+  3: 5
+  4: 7
+result:
+  - cut_stone_corner_back
+  - external.half.inverse.stl
+external: true
+inverse: true
